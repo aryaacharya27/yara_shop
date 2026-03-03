@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartStore - Apple Watch Series 9</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">SmartStore</div>
+    <a href="cart.html"><span class="cart-icon" id="cart-icon">🛒</span></a>
+  </header>
+
+  <main class="product-detail">
+  <div class="product-images">
+    <img src="AppleWatch.jpg" alt="Apple Watch Series 9" />
+  </div>
+
+  <div class="product-info">
+    <h1>Apple Watch Series 9</h1>
+    <p class="brand">Brand: Apple</p>
+    <p class="rating">★★★★★</p>
+    <p class="price"><span class="original">₹45,000</span> ₹39,600 <span class="discount">12% off</span></p>
+
+    <ul class="features">
+      <li>Always‑On Retina display</li>
+      <li>S9 chip</li>
+      <li>Blood Oxygen & ECG apps</li>
+    </ul>
+
+    <table class="specs">
+      <tr><th>Case Sizes</th><td>41mm / 45mm</td></tr>
+      <tr><th>Battery Life</th><td>18 hours</td></tr>
+    </table>
+
+    <div class="actions">
+      <button class="add-cart" onclick="addToCart('Apple Watch Series 9','39600','AppleWatch.jpg')">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+  </div>
+</main>
+  <script src="script.js"></script>
+</body>
+</html>

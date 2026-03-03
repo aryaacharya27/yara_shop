@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartStore - Your Cart</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">SmartStore</div>
+    <nav class="category-menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="smartphones.html">Smartphones</a></li>
+        <li><a href="gadgets.html">Gadgets</a></li>
+      </ul>
+    </nav>
+    <span class="cart-icon">🛒</span>
+  </header>
+
+  <!-- Cart Section -->
+  <main class="cart-page">
+    <h1>Your Shopping Cart</h1>
+    <table id="cart-table">
+      <thead>
+        <tr>
+          <th>Image</th>
+          <th>Product</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Remove</th>
+        </tr>
+      </thead>
+      <tbody id="cart-items"></tbody>
+    </table>
+    <p id="cart-total"></p>
+    <button id="clear-cart">Clear Cart</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartStore - Samsung Galaxy S24 Ultra</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">SmartStore</div>
+    <a href="cart.html"><span class="cart-icon" id="cart-icon">🛒</span></a>
+  </header>
+
+  <main class="product-detail">
+  <div class="product-images">
+    <img src="Samsung.jpg" alt="Samsung Galaxy S24 Ultra" />
+  </div>
+
+  <div class="product-info">
+    <h1>Samsung Galaxy S24 Ultra</h1>
+    <p class="brand">Brand: Samsung</p>
+    <p class="rating">★★★★☆</p>
+    <p class="price"><span class="original">₹1,20,000</span> ₹1,02,000 <span class="discount">15% off</span></p>
+
+    <ul class="features">
+      <li>6.8‑inch AMOLED display</li>
+      <li>Snapdragon 8 Gen 3</li>
+      <li>200MP main camera</li>
+    </ul>
+
+    <table class="specs">
+      <tr><th>Storage</th><td>256GB / 512GB / 1TB</td></tr>
+      <tr><th>Battery</th><td>5000 mAh</td></tr>
+    </table>
+
+    <div class="actions">
+      <button class="add-cart" onclick="addToCart('Samsung Galaxy S24 Ultra','102000','Samsung.jpg')">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+  </div>
+</main>
+
+  <script src="script.js"></script>
+</body>
+</html>

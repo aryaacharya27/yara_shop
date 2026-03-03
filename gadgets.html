@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartStore - Gadgets</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">SmartStore</div>
+    <input type="text" class="search-bar" placeholder="Search gadgets..." />
+    <div class="nav-actions">
+      <button>Login / Signup</button>
+      <a href="cart.html"><span class="cart-icon" id="cart-icon">🛒</span></a>
+    </div>
+  </header>
+
+  <section class="category-header">
+    <h1>Gadgets</h1>
+  </section>
+
+  <!-- Sorting & Filtering -->
+  <div class="filters">
+    <label for="sort">Sort By:</label>
+    <select id="sort">
+      <option>Price: Low to High</option>
+      <option>Price: High to Low</option>
+      <option>Newest Arrivals</option>
+      <option>Best Rated</option>
+    </select>
+  </div>
+
+  <!-- Product Grid -->
+  <section class="product-section">
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b" alt="Apple Watch Series 9" />
+        <h3>Apple Watch Series 9</h3>
+        <p class="price"><span class="original">₹45,000</span> ₹39,600</p>
+        <p class="rating">★★★★★ (540)</p>
+        <a href="applewatch.html" class="view-link">View Details</a>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1585386959984-a415522bde1d" alt="Sony WF-1000XM5 Earbuds" />
+        <h3>Sony WF-1000XM5 Earbuds</h3>
+        <p class="price"><span class="original">₹24,000</span> ₹19,200</p>
+        <p class="rating">★★★★☆ (320)</p>
+        <a href="earbuds.html" class="view-link">View Details</a>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

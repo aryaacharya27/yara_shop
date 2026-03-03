@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartStore - iPhone 15 Pro</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">SmartStore</div>
+    <a href="cart.html"><span class="cart-icon" id="cart-icon">🛒</span></a>
+  </header>
+
+  <!-- Product Detail -->
+  <main class="product-detail">
+  <div class="product-images">
+    <img src="iPhone.jpg" alt="iPhone 15 Pro" />
+  </div>
+
+  <div class="product-info">
+    <h1>iPhone 15 Pro</h1>
+    <p class="brand">Brand: Apple</p>
+    <p class="rating">★★★★★</p>
+    <p class="price"><span class="original">₹1,40,000</span> ₹1,26,000 <span class="discount">10% off</span></p>
+
+    <ul class="features">
+      <li>6.1‑inch Super Retina XDR display</li>
+      <li>A17 Pro chip</li>
+      <li>48MP main camera</li>
+    </ul>
+
+    <table class="specs">
+      <tr><th>Storage</th><td>128GB / 256GB / 512GB / 1TB</td></tr>
+      <tr><th>Battery</th><td>3274 mAh</td></tr>
+    </table>
+
+    <div class="actions">
+      <button class="add-cart" onclick="addToCart('iPhone 15 Pro','126000','iPhone.jpg')">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+  </div>
+</main>
+  <script src="script.js"></script>
+</body>
+</html>

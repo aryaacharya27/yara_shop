@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartStore - Smartphones</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">SmartStore</div>
+    <input type="text" class="search-bar" placeholder="Search smartphones..." />
+    <div class="nav-actions">
+      <button>Login / Signup</button>
+      <a href="cart.html"><span class="cart-icon" id="cart-icon">🛒</span></a>
+    </div>
+  </header>
+
+  <section class="category-header">
+    <h1>Smartphones</h1>
+  </section>
+
+  <!-- Sorting & Filtering -->
+  <div class="filters">
+    <label for="sort">Sort By:</label>
+    <select id="sort">
+      <option>Price: Low to High</option>
+      <option>Price: High to Low</option>
+      <option>Newest Arrivals</option>
+      <option>Best Rated</option>
+    </select>
+  </div>
+
+  <!-- Product Grid -->
+  <section class="product-section">
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="iphone.jpg" alt="iPhone 15 Pro" />
+        <h3>iPhone 15 Pro</h3>
+        <p class="price">₹1,26,000</p>
+        <p class="rating">★★★★★ (320)</p>
+        <a href="iphone.html" class="view-link">View Details</a>
+      </div>
+
+      <div class="product-card">
+         <img src="samsung.jpg" alt="Samsung Galaxy S24 Ultra" />
+        <h3>Samsung Galaxy S24 Ultra</h3>
+        <p class="price">₹1,02,000</p>
+        <p class="rating">★★★★☆ (210)</p>
+        <a href="samsung.html" class="view-link">View Details</a>
+      </div>
+	<div class="product-card">
+        <img src="iphone17.jpg" alt="iPhone 17 Pro max" />
+        <h3>iPhone 17 Pro max</h3>
+        <p class="price"> ₹1,49,999</p>
+        <p class="rating">★★★★★ (320)</p>
+        <a href="iphone1.html" class="view-link">View Details</a>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
